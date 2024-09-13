@@ -1,0 +1,45 @@
+.tarjeta__cumpleaños {
+  background-color: rgb(255, 182, 193);
+  border-radius: var(--borde-radius);
+  box-shadow: var(--sombra);
+  padding: 16px;
+}
+
+.tarjeta__boda {
+  background-color: rgb(219, 112, 147);
+  border-radius: var(--borde-radius);
+  box-shadow: var(--sombra);
+  padding: 16px;
+}
+
+.tarjeta__cine {
+  background-color: rgb(250, 128, 114);
+  border-radius: var(--borde-radius);
+  box-shadow: var(--sombra);
+  padding: 16px;
+}
+
+.tarjeta__aerolinea {
+  background-color: rgb(238, 130, 238);
+
+  border-radius: var(--borde-radius);
+  box-shadow: var(--sombra);
+  padding: 16px;
+}
+
+.tarjeta__body {
+  padding: 16px;
+}
+
+.tarjeta__titulo {
+  font-size: var(--tamaño-grande);
+  color: var(--color-texto);
+  text-align: center;
+  font-weight: bold;
+}
+
+.tarjeta__texto {
+  font-size: var(--tamaño-fuente);
+  color: var(--color-texto);
+  text-align: center;
+}

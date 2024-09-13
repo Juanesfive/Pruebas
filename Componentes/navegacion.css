@@ -1,0 +1,20 @@
+.navegacion {
+    background-color: var(--color-principal);
+    padding: 16px;
+}
+
+.navegacion__lista {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+/* 
+.navbar__item {
+    
+} */
+
+.navegacion__enlace {
+    color: white;
+    text-decoration: none;
+    font-size: var(--tamaño-fuente);
+}

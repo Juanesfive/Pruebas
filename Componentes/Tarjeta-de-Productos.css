@@ -1,0 +1,24 @@
+.Tarjeta-de-Producto {
+    border: 1px solid var(--color-texto);
+    border-radius: var(--borde-radius);
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+
+.Tarjeta-de-Producto__imagen {
+    max-width: 100%;
+    border-radius: var(--borde-radius);
+}
+
+.Tarjeta-de-Producto__titulo {
+    font-size: var(--tamaño-grande);
+    color: var(--color-texto);
+}
+
+.Tarjeta-de-Producto__precio {
+    font-size: var(--tamaño-fuente);
+    color: var(--color-secundario);
+}

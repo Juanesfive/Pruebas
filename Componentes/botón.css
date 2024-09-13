@@ -1,0 +1,13 @@
+.botón {
+    background-color: var(--color-secundario);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: var(--borde-radius);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botón:hover {
+    background-color: darkgreen;
+}

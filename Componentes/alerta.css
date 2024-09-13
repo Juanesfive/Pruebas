@@ -1,0 +1,33 @@
+.alerta {
+    padding: 1rem;
+    border-radius: var(--borde-radius);
+    position: relative;
+}
+
+.alerta--exitosa {
+    background-color: var(--color-secundario);
+    color: white;
+}
+
+.alerta__cierre {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.alerta--aqua{
+    color: rgb(0, 255, 255);
+}
+
+.alerta--DarkViolet{
+    color: rgb(148, 0, 211);
+}
+
+.alerta--Teal{
+    color: rgb(0, 128, 128);
+}
+
+.alerta--Red{
+    color: hsl(0, 100%, 50%);
+}

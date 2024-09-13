@@ -1,0 +1,48 @@
+
+
+.interfaz {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interfaz__contenido {
+    background-color: white;
+    padding: 32px;
+    border-radius: var(--borde-radius);
+    box-shadow: var(--sombra);
+    position: relative;
+}
+
+.interfaz__oferta {
+    top: 30%;
+    left: 10%;
+}
+
+.interfaz__actualizacion {
+    top: 30%;
+    left: 50%;
+}
+
+.interfaz__Bienvenida {
+    top: 30%;
+    left: 100%;
+}
+
+.interfaz__recordatorio{
+    top: 30%;
+    left: 140%;
+}
+
+.interfaz__cierre {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+}

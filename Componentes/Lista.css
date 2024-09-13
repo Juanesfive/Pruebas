@@ -1,0 +1,37 @@
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.lista__titulo{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.lista__item {
+    padding: 8px;
+    border-bottom: 1px solid var(--color-texto);
+}
+
+.lista__item:hover {
+    /* background-color: var(--color-fondo); */
+    background-color: hsl(0, 0%, 66%);
+    
+}
+
+.lista--SaddleBrown{
+    color: rgb(139, 69, 19);
+}
+
+.lista--Goldenrod{
+    color: rgb(218, 165, 32)    ;
+}
+
+.lista--MediumSpringGreen{
+    color: rgb(0, 250, 154);
+}
+
+.lista--Yellow{
+    color: rgb(255, 255, 0);
+}

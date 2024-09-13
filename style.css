@@ -1,0 +1,30 @@
+@import url(../Componentes/alerta.css);
+@import url(../Componentes/botón.css);
+@import url(../Componentes/tarjeta.css);
+@import url(../Componentes/footer.css);
+@import url(../Componentes/formulario.css);
+@import url(../Componentes/Lista.css);
+@import url(../Componentes/interfaz_Emergente.css);
+@import url(../Componentes/navegacion.css);
+@import url(../Componentes/Tarjeta-de-Productos.css);
+@import url(./Componentes/Tablas.css);
+
+
+
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --color-principal: #3498db;
+    --color-secundario: #2ecc71;
+    --color-fondo: #ecf0f1;
+    --color-texto: #000000;
+    --tamaño-fuente: 16px;
+    --tamaño-grande: 20px;
+    --tamaño-pequeño: 12px;
+    --sombra: 0 2px 5px rgba(0, 0, 0, 0.1);
+    --borde-radius: 9px;
+}

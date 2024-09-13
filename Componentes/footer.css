@@ -1,0 +1,37 @@
+.footer__empresa {
+    background-color: var(--color-principal);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 15px;
+}
+
+.footer__derechos{
+    background-color: rgb(210, 105, 30);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 15px;
+
+}
+
+.footer__gratitud{
+    background-color: rgb(119, 136, 153);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 15px;
+
+}
+
+.footer__condiciones{
+    background-color: rgb(255, 140, 0);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 15px;
+}
